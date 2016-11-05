@@ -1,0 +1,3 @@
+﻿service block{
+	void updateDurability(string guid, i32 updatedDurability, i32 timestamp);
+}
