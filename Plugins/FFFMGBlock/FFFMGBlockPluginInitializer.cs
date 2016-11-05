@@ -52,7 +52,10 @@ namespace FFFMGBlockPlugin
         private void defineComponents()
         {
             ComponentDefinition block = new ComponentDefinition("block");
-            block.AddAttribute<Material>("material");
+            // can be added if enum is propagatable
+            // block.AddAttribute<Material>("material");
+            // workaround:
+            block.AddAttribute<int>("material");
             block.AddAttribute<int>("durability");
             ComponentRegistry.Instance.Register(block);
         }
