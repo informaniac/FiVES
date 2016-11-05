@@ -80,7 +80,17 @@ namespace FFFMGBlockPlugin
         // Example for Material
         enum Material
         {
-            DIRT, STONE, COPPER_ORE, IRON_ORE, GOLD_ORE
+            DIRT,
+            STONE,
+            COPPER_ORE,
+            IRON_ORE,
+            SILVER_ORE,
+            GOLD_ORE,
+            TOPAZ,
+            RUBY,
+            SAPPHIRE,
+            EMERALD,
+            DIAMOND
         }
     }
 }
