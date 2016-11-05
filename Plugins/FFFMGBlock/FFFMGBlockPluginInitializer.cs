@@ -24,7 +24,7 @@ namespace FFFMGBlockPlugin
         {
             get
             {
-                return new List<string>();
+                return new List<string>() { "Location" };
             }
         }
 
