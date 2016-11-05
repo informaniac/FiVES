@@ -1,3 +1,21 @@
-﻿service block{
+﻿/* enum in SINFONI not yet implemented. workaround: use int instead of Material.
+   you still can implement this enum, but use its int values
+enum Material{
+    DIRT,
+    STONE,
+    COPPER_ORE,
+    IRON_ORE,
+	SILVER_ORE,
+    GOLD_ORE,
+    TOPAZ,
+    RUBY,
+    SAPPHIRE,
+    EMERALD,
+    DIAMOND
+}
+*/
+
+service block{
 	void updateDurability(string guid, i32 updatedDurability, i32 timestamp);
 }
+
