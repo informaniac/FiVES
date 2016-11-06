@@ -82,6 +82,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFFMGBlock", "Plugins\FFFMG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawable2D", "Plugins\Drawable2D\Drawable2D.csproj", "{2B2DB428-E510-4E75-84C0-2589E7E8B4FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFFMGWorldGenerator", "Plugins\FFFMGWorldGenerator\FFFMGWorldGenerator.csproj", "{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -220,6 +222,10 @@ Global
 		{2B2DB428-E510-4E75-84C0-2589E7E8B4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2DB428-E510-4E75-84C0-2589E7E8B4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2DB428-E510-4E75-84C0-2589E7E8B4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,6 +265,7 @@ Global
 		{A59B7354-F1FF-4E6F-9929-22FC5D5EB83F} = {8E636E4B-A4AB-44B2-A2D4-821E73CCA455}
 		{0786D007-A1AE-4906-8A8E-8E060776F554} = {C73EDE56-1E63-400F-A694-9158687895DD}
 		{2B2DB428-E510-4E75-84C0-2589E7E8B4FA} = {C73EDE56-1E63-400F-A694-9158687895DD}
+		{8F1245C2-7281-4F36-B6C6-FE885F8C5D7D} = {C73EDE56-1E63-400F-A694-9158687895DD}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Core\FIVES\FIVES.csproj
