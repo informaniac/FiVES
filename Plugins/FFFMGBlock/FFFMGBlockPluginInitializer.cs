@@ -24,7 +24,7 @@ namespace FFFMGBlockPlugin
         {
             get
             {
-                return new List<string>() { "Location" };
+                return new List<string>();
             }
         }
 
@@ -32,7 +32,7 @@ namespace FFFMGBlockPlugin
         {
             get
             {
-                return new List<string>();
+                return new List<string>() { "Location" };
             }
         }
 
@@ -76,6 +76,7 @@ namespace FFFMGBlockPlugin
             if (entity != null)
                 entity["block"]["durability"].Suggest(updatedDurability);
         }
+    }
 
         // Example for Material
         enum Material
